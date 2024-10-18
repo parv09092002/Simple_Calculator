@@ -12,7 +12,7 @@ pipeline {
     stage('Install Dependencies') {
       steps {
         // Use 'bat' for Windows environment
-         pip install -r requirements.txt
+        pip install -r requirements.txt
       }
     }
 
